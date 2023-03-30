@@ -17,29 +17,28 @@ header{
   position: fixed;
   top: 0;
   width: 100%;
-  background: #333;
+  background:rgb(255,115,0);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 40px;
 }
 
 header h1, header span{
   margin: 0.5px;
   font-size: 1.8rem;
   margin:  0 20px;
-  font-weight: 500;
+  font-weight: 900;
   color: #f1f1f1;
   cursor: pointer;
 }
 
 header h1:hover{
   text-decoration: underline ;
-  color: crimson;
 }
 
 header span:hover{
   text-decoration: underline ;
-  color: crimson;
 }
 
 header ul{
@@ -56,7 +55,7 @@ header a{
 
 header a:hover{
   text-decoration: underline ;
-  color: crimson;
+  font-weight: bolder;
 }
 
 /* main */
@@ -68,19 +67,20 @@ main{
 }
 
 .p-txt{
-  background: crimson;
+  background: #17232d;
+  color: white;
   border-radius: 5px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
-  margin-top: 68px;
-  margin-bottom: 5px;
-  padding: 20px;
+  margin-top: 150px;
+  margin-bottom: -28px;
+  padding: 40px;
   cursor: pointer;
   font-size: 0.1rem;
 }
 
 .p-txt:hover{
   text-decoration: underline;
-  color: white;
+  font-weight: bolder;
 }
 
 .slider img{
@@ -131,7 +131,7 @@ main{
 }
 
 .section_2 button{
-  background: royalblue;
+  background: #3333;
   font-size: 20px;
   min-width: 200px;
   padding: 10px;
@@ -194,7 +194,7 @@ main{
 }
 
 .container-article .article-btn{
-  background: royalblue;
+  background: #3333;
   font-size: 20px;
   min-width: 200px;
   margin: 0 auto;
@@ -233,12 +233,18 @@ main{
   justify-content: space-between; 
 }
 
+.circle p{
+  color: white;
+  font-weight: 900;
+}
+
 .circle_{
   width: 150px;
   height: 150px;
-  background: white;
+  padding: 70px;
+  background: #3333;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
-  border: solid 5px royalblue;
+  border: solid 15px white;
   border-radius: 50%;
   margin: 0 auto;
   font-weight: bold;
@@ -272,7 +278,8 @@ main{
 
 .global-art button{
   border: none;
-  color: royalblue;
+  background: #3333;
+  color: white;
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
@@ -409,9 +416,9 @@ footer {
       flex-direction: column;
   }
   .p-txt{
-    margin-top: 210px;
+    margin-top: 290px;
     text-align: center;
-    margin-bottom: -110px;
+    margin-bottom: -143px;
   }
   .container-article{
     flex-direction: column;

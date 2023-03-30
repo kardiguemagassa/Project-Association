@@ -17,30 +17,27 @@ header{
   position: fixed;
   top: 0;
   width: 100%;
-  background: #333;
+  background:rgb(255,115,0);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 40px;
 }
 
 header h1, header span{
   margin: 0.5px;
   font-size: 1.8rem;
   margin:  0 20px;
-  font-weight: 500;
+  font-weight: 900;
   color: #f1f1f1;
 }
 
 header h1:hover{
   text-decoration: underline ;
-  color: crimson;
-  cursor: pointer;
 }
 
 header span:hover{
   text-decoration: underline ;
-  color: crimson;
-  cursor: pointer;
 }
 
 header ul{
@@ -57,7 +54,7 @@ header a{
 
 header a:hover{
   text-decoration: underline ;
-  color: crimson;
+  font-weight: bolder;
 }
 
 /* main */
@@ -78,42 +75,39 @@ main h3{
 }
 
 .p-txt{
-  background: crimson;
+  background: #17232d;
+  color: white;
   border-radius: 5px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
-  margin-top: 78px;
+  margin-top: 158px;
   margin-bottom: -10px;
   padding: 5px;
+  padding: 40px;
   cursor: pointer;
   font-size: 0.1em;
 }
 
 .p-txt:hover{
   text-decoration: underline;
-  color: white;
+  font-weight: bolder;
 }
 
 .global-section{
   display: flex;
   text-align: justify;
   margin-bottom: -50px;
-  /* align-content: flex-end; */
-  /* flex-wrap: ; */
-  /* align-items: flex-start; */
 }
 
 main .first-article{
   background: #f1f1f1;
    /* order :0; l'ordre d'affichage souhaiter*/
-  flex:1; /*definir une taille souhaiter*/
+  flex:1; /*definir une taille sur l'enfant souhaiter*/
   z-index: -1;
   margin: 5px ;
 }
 
 main .second-article{
-  /* order :0; l'ordre d'affichage souhaiter*/
   flex:1;
-  /* flex-basis: 200px; */
   margin: 5px ;
   z-index: -1;
   background: #f1f1f1;
@@ -130,19 +124,20 @@ section .btn-info{
   border: none;
   font-weight: 700;
   border-radius: 5px;
+  background: #3333;
   color: #333;
-  cursor: pointer;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
 }
 
- section .btn-elment:hover{
-  background: crimson;
+.btn-elment :hover{
+  background: rgb(255,115,0);
+  color: #f1f1f1;
   cursor: pointer;
   /* defois y beug */
 }
 
-section .btn-info:hover{
-  background: crimson;
+.btn-info:hover{
+  background: rgb(255,115,0);
   color: #f1f1f1;
 }
  
@@ -258,7 +253,7 @@ footer {
     flex-direction: column;
   }
   .p-txt{
-    margin-top: 262px;
+    margin-top: 342px;
     text-align: center;
   }
   /* .row{
