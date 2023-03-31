@@ -67,11 +67,12 @@ main{
 }
 
 .p-txt{
-  background: #17232d;
+  /* background: #17232d; */
+  background: #3333;
   color: white;
   border-radius: 5px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
-  margin-top: 150px;
+  margin-top: 155px;
   margin-bottom: -28px;
   padding: 40px;
   cursor: pointer;
@@ -81,6 +82,8 @@ main{
 .p-txt:hover{
   text-decoration: underline;
   font-weight: bolder;
+  background: rgb(255,115,0);
+  color: white;
 }
 
 .slider img{
