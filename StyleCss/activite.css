@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -22,6 +22,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 40px;
+  z-index: 20;
 }
 
 header h1, header span{
@@ -98,21 +99,11 @@ main h3{
   margin-bottom: -50px;
 }
 
-main .first-article{
-  background: #f1f1f1;
+main .first-article, main .second-article{
    /* order :0; l'ordre d'affichage souhaiter*/
   flex:1; /*definir une taille sur l'enfant souhaiter*/
-  z-index: -1;
-  margin: 5px ;
+  margin: 15px ;
 }
-
-main .second-article{
-  flex:1;
-  margin: 5px ;
-  z-index: -1;
-  background: #f1f1f1;
-   
-} 
 
 section .btn-elment,
 section .btn-info{
