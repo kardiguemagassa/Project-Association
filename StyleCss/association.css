@@ -70,7 +70,7 @@ main{
   color: white;
   border-radius: 5px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
-  margin-top: 150px;
+  margin-top: 142px;
   margin-bottom: 20px;
   padding: 40px;
   cursor: pointer;
@@ -130,16 +130,6 @@ main{
   justify-content: center;
   align-items: center;
 }
-
-.floated-left,.floated-right{
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-}
-
-/* .floated-right{
-  flex-grow: 6;
-} */
 
   /* Footer */
 footer {
@@ -253,7 +243,7 @@ footer {
       flex-direction: column;
   }
   .p-txt{
-    margin-top: 290px;
+    margin-top: 260px;
     text-align: center;
   }
   .article_3{

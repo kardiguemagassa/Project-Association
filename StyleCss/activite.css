@@ -247,18 +247,7 @@ footer {
     margin-top: 342px;
     text-align: center;
   }
-  /* .row{
-    display: flex;
-    width: 1000px; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .card{
-    flex-basis: 6000px;
-    flex:100%
-  } */
-
+ 
   .global-section{
     flex-direction: column;
   }
