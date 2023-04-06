@@ -76,7 +76,7 @@ main h3{
 }
 
 .p-txt{
-  background: #17232d;
+  background: #84a08e;
   color: white;
   border-radius: 5px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
@@ -93,43 +93,9 @@ main h3{
   font-weight: bolder;
 }
 
-.global-section{
-  display: flex;
-  text-align: justify;
-  margin-bottom: -50px;
-}
-
 main .first-article, main .second-article{
    /* order :0; l'ordre d'affichage souhaiter*/
   flex:1; /*definir une taille sur l'enfant souhaiter*/
-  margin: 15px ;
-}
-
-section .btn-elment,
-section .btn-info{
-  font-size: 20px;
-  min-width: 200px;
-  margin: 40px auto;
-  padding: 10px;
-  display: block;
-  border: none;
-  font-weight: 700;
-  border-radius: 5px;
-  background: #3333;
-  color: #333;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
-}
-
-.btn-elment :hover{
-  background: rgb(255,115,0);
-  color: #f1f1f1;
-  cursor: pointer;
-  /* defois y beug */
-}
-
-.btn-info:hover{
-  background: rgb(255,115,0);
-  color: #f1f1f1;
 }
  
 /* Footer */
