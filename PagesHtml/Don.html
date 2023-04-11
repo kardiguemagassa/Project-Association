@@ -24,7 +24,7 @@
                 <li><a href="/PagesHtml/Association.html">L'association</a></li>
                 <li><a href="/PagesHtml/Activite.html">Nos activités</a></li>
                 <li><a href="/PagesHtml/Equipe.html">Notre équipe</a></li>
-                <li><a href="/PagesHtml/news.html">Les news</a></li>
+                <!-- <li><a href="/PagesHtml/news.html">Les news</a></li> -->
                 <li><a href="/PagesHtml/Don.html">Don en ligne</a></li>
                 <li><a href="/PagesHtml/contact.html">Contact</a></li>
             </ul>
@@ -42,8 +42,8 @@
                 C’est un soutien monumental pour une association qui se démène pour son prochain.
                 Nous avons besoin de chacun d’entre vous pour commencer un travail sur de nombreuses années, qui servira a semer joie, 
                 sérénité et droit humain à chacun des habitants de notre beau monde. Chaque don compte, nous avons besoin de vous.
-                <div><button>Faire un don</button></div>
             </p>
+            <button>Faire un don</button>
             <p>
                 Vous pouvez faire un don via ASSO_1975 par virement bancaire. 
                 Voici deux exemples d'intégration ci-dessous. Pour en savoir plus sur comment intégrer 
@@ -61,6 +61,42 @@
                     <p>France: FR76 30001 00794 12345678901 85</p>
                     <p> Belgique: BE62 5100 0754 7061</p>  
                 </div>
+                <div class="global-div step_1">
+                    <form class="form-bloc">
+                      <h3>MES COORDONNÉES</h3>
+                      <h4>Je me connecte et valide mon paiemant en un clip</h4>
+                      <button type="button">valider</button>
+                          <p>ou je saisis mes coordonnées</p>
+                      <label for="emai">Email</label>
+                      <input type="email" name="email" id="email" required placeholder="Email">
+                          <div class="option">
+                              <select name="civilite" id="civilite">
+                                  <option value="Cv">Civilité</option>
+                                  <option value="Mr">Monsieur</option>
+                                  <option value="Mme">Madame</option>
+                              </select>
+                          </div>
+                          <label for="firstName">Prenom</label>
+                          <input type="text" name="firstName" id="firstName" required placeholder="Votre prénom">
+      
+                          <label for="lastName">Nom</label>
+                          <input type="text" name="lastName" id="lastName" required placeholder="Votre nom">
+                      <div class="option">
+                          <select name="identite" id="identite">
+                              <option value="id">Votre pays</option>
+                              <option value="fr">France</option>
+                              <option value="am">Amerique</option>
+                              <option value="af">Afrique</option>
+                              <option value="al">Allemagne</option>
+                              <option value="es">Espagne</option>
+                              <option value="it">Italie</option>
+                          </select>
+                      </div>
+                      <label for="adress">Adresse</label>
+                      <input type="text" name="adress" id="adress" placeholder="Votre Adresse">
+                      <p>* Ce champs est obligatoires(indispensables pour votre réduction fiscalet)</p>
+                    </form>
+                  </div>
                      
             </article>
             <article class="article-card">
@@ -73,7 +109,22 @@
                     l'administration de votre site et connecter votre compte comme expliqué sur notre 
                     site de support.
                 </p>
-                <img src="/Ressources_2/Images/helloasso.jpg" alt="">
+                <div class="global-div  step_2">
+                    <form class="form-bloc">
+                        <h3>MON RÈGLEMENT</h3>
+                            <img src="/Ressources/card.png" alt="carte" class="card-item1">
+                            <p>CARTE BANCAIRE</p>
+                            <img src="/Ressources/pay.png" alt="paypal" class="card-item2">
+                            <p>PAYPAL</p>
+                            <img src="/Ressources/bank.png" alt="banque">
+                            <p>PAYER PAR VIRMENT INSTANTANÉ</p>
+                        <input type="number" placeholder="CB: 2772 2652 2542 2982" required>
+                        <input type="date" placeholder="MM / AA">
+                        <input type="number" placeholder="CVC">
+                        <button type="submit">Validation de mon don 0 €</button>
+                        <span>plateforme de payement 100% sécurisée</span>
+                    </form>
+                </div>
             </article>            
         </section>
     </main>
